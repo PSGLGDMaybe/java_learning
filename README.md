@@ -62,10 +62,13 @@ Node.js 历史版本下载地址：<https://nodejs.org/dist/>
 >特别注意：Linux 上安装 Node.js 需要安装 Python 2.6 或 2.7 ，不建议安装 Python 3.0 以上版本。(菜鸟教程)
 
 下载后安装，可按照菜鸟教程Node.js安装教程来安装。
+
 地址：<https://www.runoob.com/nodejs/nodejs-install-setup.html>
 
 为了提高效率，可以使用淘宝的镜像：http://npm.taobao.org/
+
 输入：npm install -g cnpm –registry=https://registry.npm.taobao.org，即可安装npm镜像，以后再用到npm的地方
+
 直接用cnpm来代替。
 
 #### <span id="1.1.2">1.1.2 Node.js环境配置</span>
