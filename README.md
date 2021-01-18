@@ -65,10 +65,9 @@ Node.js 历史版本下载地址：<https://nodejs.org/dist/>
 
 地址：<https://www.runoob.com/nodejs/nodejs-install-setup.html>
 
-为了提高效率，可以使用淘宝的镜像：http://npm.taobao.org/
+为了提高效率，可以使用淘宝的镜像：<http://npm.taobao.org/>
 
-输入：npm install -g cnpm –registry=https://registry.npm.taobao.org，即可安装npm镜像，以后再用到npm的地方
-
+输入：npm install -g cnpm –registry= <https://registry.npm.taobao.org>，即可安装npm镜像，以后再用到npm的地方
 直接用cnpm来代替。
 
 #### <span id="1.1.2">1.1.2 Node.js环境配置</span>
@@ -82,20 +81,28 @@ PC性能降低，所以需要改变Node.js一些默认的配置，保证将来�
 
 * 设置全局目录和缓存目录，这里两种方式
     1. 命令行，打开cmd命令行窗口，输入：
+   
     npm config set prefix "D:\whtTools\nodejs\node_global"
+    
     npm config set cache "D:\whtTools\nodejs\node_cache"
+    
     ![命令行修改配置](https://upload-images.jianshu.io/upload_images/13118720-4869774ad3d50a7a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-    2. 直接修改配置文件
+    1. 直接修改配置文件
     进入C:\Users\计算机用户名（如本人：C:\Users\Administrator）文件夹下，打开.npmrc文件直接修改
+
     ![直接修改配置文件](https://upload-images.jianshu.io/upload_images/13118720-aa631afb9e6ea117.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 * 环境变量配置
 为了能够全局使用Node.js得命令，配置环境变量
 右击‘我的电脑’>属性>高级系统配置>环境变量>系统变量 >新建（图片是编辑，自己需要新建），变量值为Node
 安装目录下的node_modules文件夹
+
 ![图片为编辑，自己需要新建](https://upload-images.jianshu.io/upload_images/13118720-e0a8edd98182272f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 然后将修改系统变量Path，如下：
+
 ![修改系统变量Path](https://upload-images.jianshu.io/upload_images/13118720-984b0577693cf001.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 至此Node环境准备完成。
 
 #### <span id="1.2">1.2 创建vue前端项目</span>
