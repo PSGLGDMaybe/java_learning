@@ -67,8 +67,7 @@ Node.js 历史版本下载地址：<https://nodejs.org/dist/>
 
 为了提高效率，可以使用淘宝的镜像：<http://npm.taobao.org/>
 
-输入：npm install -g cnpm –registry= <https://registry.npm.taobao.org>，即可安装npm镜像，以后再用到npm的地方
-直接用cnpm来代替。
+输入：npm install -g cnpm –registry= <https://registry.npm.taobao.org>，即可安装npm镜像，以后再用到npm的地方直接用cnpm来代替。
 
 #### <span id="1.1.2">1.1.2 Node.js环境配置</span>
 
@@ -97,6 +96,7 @@ PC性能降低，所以需要改变Node.js一些默认的配置，保证将来�
     ![直接修改配置文件](https://upload-images.jianshu.io/upload_images/13118720-aa631afb9e6ea117.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 * 环境变量配置
+  
     为了能够全局使用Node.js得命令，配置环境变量右击‘我的电脑’>属性>高级系统配置>环境变量>系统变量 >新建（图片是编辑，自己需要新建），变量值为Node安装目录下的node_modules文件夹
 
     ![图片为编辑，自己需要新建](https://upload-images.jianshu.io/upload_images/13118720-e0a8edd98182272f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
