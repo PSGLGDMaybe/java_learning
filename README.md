@@ -80,14 +80,15 @@ PC性能降低，所以需要改变Node.js一些默认的配置，保证将来�
 ![创建两个文件夹](https://upload-images.jianshu.io/upload_images/13118720-15d7a7ea8eb619b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 * 设置全局目录和缓存目录，这里两种方式
-    1. 命令行，打开cmd命令行窗口，输入：
+    1.命令行，打开cmd命令行窗口，输入：
    
     npm config set prefix "D:\whtTools\nodejs\node_global"
     
     npm config set cache "D:\whtTools\nodejs\node_cache"
     
     ![命令行修改配置](https://upload-images.jianshu.io/upload_images/13118720-4869774ad3d50a7a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-    1. 直接修改配置文件
+    
+    2.直接修改配置文件
     进入C:\Users\计算机用户名（如本人：C:\Users\Administrator）文件夹下，打开.npmrc文件直接修改
 
     ![直接修改配置文件](https://upload-images.jianshu.io/upload_images/13118720-aa631afb9e6ea117.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
